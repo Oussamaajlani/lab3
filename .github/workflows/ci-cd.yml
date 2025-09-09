@@ -7,7 +7,7 @@ on:
 
 env:
   DOCKER_IMAGE: ${{ secrets.DOCKER_USERNAME }}/my-app
-  AZURE_WEBAPP_NAME: my-azure-webapp   # change to your Azure Web App name
+  AZURE_WEBAPP_NAME: web   # change to your Azure Web App name
 
 jobs:
   test:
